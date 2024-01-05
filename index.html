@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolkata Metro</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Kolkata Metro</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#routes">Routes</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Kolkata Metro</h2>
+        <p>Welcome to the official website of the Kolkata Metro. Learn more about our history, services, and commitment to safe and efficient transportation in Kolkata.</p>
+    </section>
+    <section id="find-route">
+        <h2>Find Shortest Route</h2>
+        <label for="start-station">Start Station:</label>
+        <input type="text" id="start-station" placeholder="Enter start station">
+        <br>
+        <label for="end-station">End Station:</label>
+        <input type="text" id="end-station" placeholder="Enter end station">
+        <br>
+        <button onclick="findShortestPath()">Find Shortest Path</button>
+        <p id="shortest-path-result"></p>
+    </section>
+    <section id="schedule">
+        <h2>Timetable</h2>
+        <p>Check the metro schedule to find out when the next train is arriving at your station.</p>
+        <!-- You can add a table or schedule information here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, please feel free to contact us.</p>
+        <address>
+            Email: <a href="mailto:info@kolkatametro.com">info@kolkatametro.com</a><br>
+            Phone: +91 123 456 7890<br>
+            Address: Kolkata Metro Headquarters, 123 Metro Street, Kolkata
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kolkata Metro</p>
+    </footer>
+</body>
